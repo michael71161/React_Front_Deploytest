@@ -4,7 +4,7 @@ import axios from 'axios'
 //for accessing to this view , authorization required , all requests are with token 
 
 
-const URL = "http://127.0.0.1:8000/api/"
+const URL = "https://djangoprojback.onrender.com/api/"
 
 
 
