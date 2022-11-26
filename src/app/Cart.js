@@ -71,7 +71,7 @@ const Cart = () => {
       
         <div>
         <Button variant="contained" color="success" onClick={() =>{;notify();dispatch(addOrderAsync({ myCart, token }));dispatch(deleteCart());
-        setTimeout(function() {window.location.replace('https://djangoprojfront.onrender.com');}, 2000)}}>Make order</Button>
+        setTimeout(function() {window.location.replace('https://djangoprojfront.onrender.com/');}, 2000)}}>Make order</Button>
         </div>
         <ToastContainer  position="top-center" autoClose={1000} />
         {/* if no token give a link to log in */}
